@@ -1,9 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
-import pylab as pl
 import matplotlib 
-from scipy.optimize import curve_fit
-import scipy.optimize as optimize
 from numpy import sqrt, pi, exp, linspace
 
 data = np.loadtxt('sakurai.dat')
